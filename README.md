@@ -19,6 +19,7 @@ This assumes your dev machine has the standard python dev environment ready.
 * Done!
 
 Use `foreman start` to run your app locally at localhost:5000
+
 Your app will be live at `your-heroku-app-name.herokuapp.com`
 
 # Disclaimers
