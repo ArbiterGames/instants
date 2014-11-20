@@ -26,5 +26,5 @@ Your app will be live at `your-heroku-app-name.herokuapp.com`
 The default settings are not suitable for production. Be sure to apply to standard django production steps before using this in production.
 
 # Links
-* [django](https://docs.djangoproject.com/en/1.7/)
+* [django docs](https://docs.djangoproject.com/en/1.7/)
 * [Django REST framework](http://www.django-rest-framework.org)
