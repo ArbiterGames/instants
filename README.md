@@ -11,8 +11,10 @@ This assumes your dev machine has the standard python dev environment ready.
 * [postgres](http://postgresapp.com)
 
 # Setup
+* [Create a new heroku instance](https://dashboard-next.heroku.com/new)
+* Make note of the name of the app. I'll call this <app name> in the rest of the instructions
 * Clone this repo
-* Run `bootstrap`
+* Run `. ./bootstrap.sh <app name>`
 * Create the heroku instance
 * Add the heroku instance as a remote of this repo
 * Push
