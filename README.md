@@ -12,8 +12,8 @@ This assumes your dev machine has the standard python dev environment ready.
 
 # Setup
 * [Create a new heroku instance](https://dashboard-next.heroku.com/new)
-* Make note of the name of the app. I'll call this <app name> in the rest of the instructions
-* Clone this repo
+* Make note of the name of the app. You'll be asked to enter it later.
+* Fork this repo
 * Run `. ./bootstrap.sh <app name>`
 * Create the heroku instance
 * Add the heroku instance as a remote of this repo
