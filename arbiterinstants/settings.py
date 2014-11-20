@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '()i(31q^rw*)ql0rp(i!@24f)jg^33fa_e1*h&ljr156i#vy)7'
+SECRET_KEY = 'bzlqfk(h7vq=oq)8aumpmcl=1#122@juop*!+u+=)d-&&k+^ry'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -35,7 +35,7 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles', 'rest_framework', 'api',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -81,3 +81,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.7/howto/static-files/
 
 STATIC_URL = '/static/'
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.AllowAny',),
+    'PAGINATE_BY': 10
+}

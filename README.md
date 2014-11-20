@@ -11,13 +11,14 @@ This assumes your dev machine has the standard python dev environment ready.
 * [postgres](http://postgresapp.com)
 
 # Setup
+* Fork this repo and clone it locally.
 * [Create a new heroku instance](https://dashboard-next.heroku.com/new)
 * Make note of the name of the app. You'll be asked to enter it later.
-* Fork this repo
-* Run `. ./bootstrap.sh <app name>`
-* Create the heroku instance
-* Add the heroku instance as a remote of this repo
-* Push
+* Run `. ./bootstrap.sh`
+* Done!
+
+Use `foreman start` to run your app locally at localhost:5000
+Your app will be live at <app name>.herokuapp.com
 
 # Links
 * [django](https://docs.djangoproject.com/en/1.7/)
